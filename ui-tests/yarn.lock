@@ -276,7 +276,7 @@ __metadata:
   resolution: "@jupyter-notebook/ui-tests@workspace:."
   dependencies:
     "@jupyterlab/galata": ~5.0.0
-    "@playwright/test": ^1.33.0
+    "@playwright/test": ^1.38.0
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
@@ -1285,7 +1285,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.32.2, @playwright/test@npm:^1.33.0":
+"@playwright/test@npm:^1.32.2":
   version: 1.33.0
   resolution: "@playwright/test@npm:1.33.0"
   dependencies:
@@ -1298,6 +1298,17 @@ __metadata:
   bin:
     playwright: cli.js
   checksum: cec3215fc92c1cb9f5bfba357ea1cbe97b54979ab82f9d34a2287b1687cda5e0966b8ea7290dcd35416e18668e56d5781b6b8c4cec64baf12f3ae8dde0f68f5e
+  languageName: node
+  linkType: hard
+
+"@playwright/test@npm:^1.38.0":
+  version: 1.44.0
+  resolution: "@playwright/test@npm:1.44.0"
+  dependencies:
+    playwright: 1.44.0
+  bin:
+    playwright: cli.js
+  checksum: 64cb12e26156e0530d16cec629d82c228db7a57fe29096a6961a18fc8b7fc5f35e28f8905af7039fad5d3af0224d38e93dba479760db2ce16a63c5e2fbe2990c
   languageName: node
   linkType: hard
 
@@ -2456,7 +2467,7 @@ __metadata:
 
 "fsevents@patch:fsevents@2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -3130,6 +3141,30 @@ __metadata:
   bin:
     playwright: cli.js
   checksum: 5fb7bda06a8b73b56b85b5a0b8f711211dde57a375d9379289e22239b2de879c6d93c8fdc9ba44b932bf100914ab1ca1a55697ad88440fdd0a39101fc020b77f
+  languageName: node
+  linkType: hard
+
+"playwright-core@npm:1.44.0":
+  version: 1.44.0
+  resolution: "playwright-core@npm:1.44.0"
+  bin:
+    playwright-core: cli.js
+  checksum: 7bee257c830153578753a6dfb34b8216f8c552d750e24a0be6d3ba10baff013fb1320a1c3d487fbb0df9d1ce5d1f027ccf6e990d4514989da63691f177141ba4
+  languageName: node
+  linkType: hard
+
+"playwright@npm:1.44.0":
+  version: 1.44.0
+  resolution: "playwright@npm:1.44.0"
+  dependencies:
+    fsevents: 2.3.2
+    playwright-core: 1.44.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    playwright: cli.js
+  checksum: 22653ded652f436c1a837842009a175e8acb91ab340bb3deee87dbdb7205b439bd174f5f20591eb67f0171728c9f8f4bdfa3668a517da6bc7b45a4a79eabdbd5
   languageName: node
   linkType: hard
 
