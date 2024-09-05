@@ -40,7 +40,7 @@
   "dependencies": {
     "@jupyterlab/application": "^4.0.3",
     "@jupyterlab/coreutils": "^6.0.3",
-    "@jupyterlab/terminal": "^4.0.3",
+    "@jupyterlab/terminal": "^4.2.0",
     "@lumino/algorithm": "^2.0.0"
   },
   "devDependencies": {
