@@ -45,7 +45,7 @@
     "@jupyterlab/coreutils": "^6.0.3",
     "@jupyterlab/docmanager": "^4.0.3",
     "@jupyterlab/filebrowser": "^4.0.3",
-    "@jupyterlab/mainmenu": "^4.0.3",
+    "@jupyterlab/mainmenu": "^4.2.0",
     "@jupyterlab/services": "^7.0.3",
     "@jupyterlab/settingeditor": "^4.0.3",
     "@jupyterlab/settingregistry": "^4.0.3",
